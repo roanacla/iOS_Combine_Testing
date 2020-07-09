@@ -38,7 +38,7 @@
 		D22E4F39231061C900F5C170 /* DisplayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayView.swift; sourceTree = "<group>"; };
 		D2400D8C23106BB200DC4B4D /* ColorName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorName.swift; sourceTree = "<group>"; };
 		D2400D8F231074B900DC4B4D /* Color+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+.swift"; sourceTree = "<group>"; };
-		D254421323145D2F00D1DF62 /* CombineOperatorsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineOperatorsTests.swift; sourceTree = "<group>"; };
+		D254421323145D2F00D1DF62 /* CombineOperatorsTests.swift */ = {isa = PBXFileReference; indentWidth = 2; lastKnownFileType = sourcecode.swift; path = CombineOperatorsTests.swift; sourceTree = "<group>"; tabWidth = 2; };
 		D2594422231ADCD500004A09 /* ShareReplay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareReplay.swift; sourceTree = "<group>"; };
 		D2E805E92310439500E68452 /* ColorCalc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorCalc.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2E805EC2310439500E68452 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
