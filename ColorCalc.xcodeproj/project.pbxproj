@@ -49,7 +49,7 @@
 		D2E805F82310439600E68452 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D2E805FA2310439600E68452 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D2E805FF2310439600E68452 /* ColorCalcTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColorCalcTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D2E806032310439600E68452 /* ColorCalcTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorCalcTests.swift; sourceTree = "<group>"; };
+		D2E806032310439600E68452 /* ColorCalcTests.swift */ = {isa = PBXFileReference; indentWidth = 2; lastKnownFileType = sourcecode.swift; path = ColorCalcTests.swift; sourceTree = "<group>"; tabWidth = 2; };
 		D2E806052310439600E68452 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D2E8060E2310448F00E68452 /* CalculatorButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */

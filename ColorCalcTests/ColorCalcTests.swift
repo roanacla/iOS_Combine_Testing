@@ -79,7 +79,7 @@ class ColorCalcTests: XCTestCase {
       .store(in: &subscriptions)
 
     // When
-    // 3
+    // 3 Call viewModel.process(_:) passing a constant string that represents the ← character
     viewModel.process(CalculatorViewModel.Constant.backspace)
 
     // Then
@@ -147,6 +147,45 @@ class ColorCalcTests: XCTestCase {
     XCTAssert(
       result == expected,
       "Color expected to be \(expected) but was \(result)"
+    )
+  }
+    
+  func test_processClearSetsHexToHashtag() {
+    // Given
+    let expected = "#"
+    var result = ""
+    
+    viewModel.$hexText
+      .dropFirst()
+      .sink(receiveValue: { result = $0 })
+      .store(in: &subscriptions)
+    
+    // When
+    viewModel.process(CalculatorViewModel.Constant.clear)
+    
+    // Then
+    XCTAssert(
+      result == expected,
+      "Hex was expected to be \(expected) but was \"\(result)\""
+    )
+  }
+  
+  func test_correctRGBOTextReceived() {
+    // Given
+    let expected = "0, 102, 54, 170"
+    var result = ""
+
+    viewModel.$rgboText
+      .sink(receiveValue: { result = $0 })
+      .store(in: &subscriptions)
+
+    // When
+    viewModel.hexText = "#006636AA"
+
+    // Then
+    XCTAssert(
+      result == expected,
+      "RGBO text expected to be \(expected) but was \(result)"
     )
   }
 }
